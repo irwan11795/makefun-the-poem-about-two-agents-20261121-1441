@@ -1,3 +1,12 @@
+"""Write the competition poem to entry.txt.
+
+Output contract: a single poem of 1-280 characters, written as UTF-8
+with no trailing newline to ``entry.txt`` inside the resolved output
+directory (``$MAKEFUN_OUTPUT_DIR``, else ``/output``, else ``output``,
+else the system temp dir). The resolved path is therefore
+``/output/entry.txt`` in the grading sandbox.
+"""
+
 import os
 import sys
 import tempfile
